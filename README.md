@@ -1,1 +1,2 @@
-# mp3Downloader
+# mp3 Downloader
+- 簡易的なスクリプトのため、商用利用は推奨しない。
