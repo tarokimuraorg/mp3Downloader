@@ -1,3 +1,4 @@
+import os
 import re
 import urllib.request
 from bs4 import BeautifulSoup
@@ -5,6 +6,8 @@ from bs4 import BeautifulSoup
 def mp3_downloader(url: str):
 
     mp3_urls = []
+    
+    os.makedirs('downloads', exist_ok=True)
 
     with urllib.request.urlopen(url) as res:
 
